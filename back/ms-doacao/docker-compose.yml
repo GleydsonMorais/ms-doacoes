@@ -1,0 +1,27 @@
+version: "3.7"
+
+services:
+  hackathon-ms:
+    container_name: app-vs-majorsports
+    image: postgres:latest
+    restart: always
+    depends_on:
+      - db-ms-doacao
+    ports:
+      - "8080:8080"
+
+  db-ms-doacao:
+    container_name: db-vs-majorsports
+    image: bitnami/postgresql
+    restart: always
+    environment:
+      POSTGRES_DB: db-vs-majorsports
+      POSTGRES_USER: majorsports
+      POSTGRES_PASSWORD: majorsports
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-vs-majorsports:/var/lib/postgresql/data
+
+volumes:
+  db-vs-majorsports:
