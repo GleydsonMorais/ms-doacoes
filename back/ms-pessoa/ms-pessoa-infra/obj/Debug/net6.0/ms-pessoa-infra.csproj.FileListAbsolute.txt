@@ -1,0 +1,14 @@
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\obj\Debug\net6.0\ms-pessoa-infra.csproj.AssemblyReference.cache
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\obj\Debug\net6.0\ms-pessoa-infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\obj\Debug\net6.0\ms-pessoa-infra.AssemblyInfoInputs.cache
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\obj\Debug\net6.0\ms-pessoa-infra.AssemblyInfo.cs
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\obj\Debug\net6.0\ms-pessoa-infra.csproj.CoreCompileInputs.cache
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\bin\Debug\net6.0\ms-pessoa-infra.deps.json
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\bin\Debug\net6.0\ms-pessoa-infra.runtimeconfig.json
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\bin\Debug\net6.0\ms-pessoa-infra.dll
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\bin\Debug\net6.0\ms-pessoa-infra.pdb
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\obj\Debug\net6.0\ms-pessoa-infra.dll
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\obj\Debug\net6.0\refint\ms-pessoa-infra.dll
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\obj\Debug\net6.0\ms-pessoa-infra.pdb
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\obj\Debug\net6.0\ms-pessoa-infra.genruntimeconfig.cache
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-infra\obj\Debug\net6.0\ref\ms-pessoa-infra.dll

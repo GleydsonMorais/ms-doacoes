@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ms-pessoa-api", "ms-pessoa-api\ms-pessoa-api.csproj", "{8D848852-2960-4031-A649-EEA1770EA516}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{0C730744-912F-4EB2-A861-724057182228}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F69D121F-5A89-48F7-B967-9AF745ADC673}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{AFB9AEB3-7CE9-4C2D-A198-E3707B3B39EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ms-pessoa-domain", "ms-pessoa-domain\ms-pessoa-domain.csproj", "{A3B2BF85-0BB2-4017-B77A-96A94A6EBFCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ms-pessoa-infra", "ms-pessoa-infra\ms-pessoa-infra.csproj", "{FE25BD4C-0DEB-439D-A71D-99BDB91F4066}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ms-pessoa-api", "ms-pessoa-api\ms-pessoa-api.csproj", "{71C91FCC-FB5A-4FD8-9B1F-9B90A400AEF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +21,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8D848852-2960-4031-A649-EEA1770EA516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D848852-2960-4031-A649-EEA1770EA516}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D848852-2960-4031-A649-EEA1770EA516}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D848852-2960-4031-A649-EEA1770EA516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B2BF85-0BB2-4017-B77A-96A94A6EBFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B2BF85-0BB2-4017-B77A-96A94A6EBFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B2BF85-0BB2-4017-B77A-96A94A6EBFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B2BF85-0BB2-4017-B77A-96A94A6EBFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE25BD4C-0DEB-439D-A71D-99BDB91F4066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE25BD4C-0DEB-439D-A71D-99BDB91F4066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE25BD4C-0DEB-439D-A71D-99BDB91F4066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE25BD4C-0DEB-439D-A71D-99BDB91F4066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C91FCC-FB5A-4FD8-9B1F-9B90A400AEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C91FCC-FB5A-4FD8-9B1F-9B90A400AEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C91FCC-FB5A-4FD8-9B1F-9B90A400AEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C91FCC-FB5A-4FD8-9B1F-9B90A400AEF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3B2BF85-0BB2-4017-B77A-96A94A6EBFCC} = {F69D121F-5A89-48F7-B967-9AF745ADC673}
+		{FE25BD4C-0DEB-439D-A71D-99BDB91F4066} = {AFB9AEB3-7CE9-4C2D-A198-E3707B3B39EF}
+		{71C91FCC-FB5A-4FD8-9B1F-9B90A400AEF3} = {0C730744-912F-4EB2-A861-724057182228}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C2A5878-A481-400E-83B9-EE29A6253AF9}

@@ -1,0 +1,15 @@
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\obj\Debug\net6.0\ms-pessoa-domain.csproj.AssemblyReference.cache
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\obj\Debug\net6.0\ms-pessoa-domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\obj\Debug\net6.0\ms-pessoa-domain.AssemblyInfoInputs.cache
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\obj\Debug\net6.0\ms-pessoa-domain.AssemblyInfo.cs
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\obj\Debug\net6.0\ms-pessoa-domain.csproj.CoreCompileInputs.cache
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\bin\Debug\net6.0\ms-pessoa-domain.deps.json
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\bin\Debug\net6.0\ms-pessoa-domain.dll
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\bin\Debug\net6.0\ms-pessoa-domain.pdb
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\bin\Debug\net6.0\ms-pessoa-infra.dll
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\bin\Debug\net6.0\ms-pessoa-infra.pdb
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\obj\Debug\net6.0\ms-pessoa-domain.csproj.CopyComplete
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\obj\Debug\net6.0\ms-pessoa-domain.dll
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\obj\Debug\net6.0\refint\ms-pessoa-domain.dll
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\obj\Debug\net6.0\ms-pessoa-domain.pdb
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-domain\obj\Debug\net6.0\ref\ms-pessoa-domain.dll

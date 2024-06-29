@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ms-pessoa-api.props" />
+</Project>
