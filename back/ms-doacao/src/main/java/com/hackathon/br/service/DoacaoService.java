@@ -77,9 +77,8 @@ public class DoacaoService {
     }
 
     // Método para buscar doações na API externa
-    private ResponseEntity<List<Doacao>> buscarDoacoesNaApiExterna(String cpf, String jwtToken) {
+    private ResponseEntity<List<Doacao>> buscarDoacoesNaApiExterna(String cpf) {
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Authorization", "Bearer " + jwtToken);
         headers.set("api-key", apiKey);
         headers.set("HACKATON_UNIESP_MARJO_2024", "true");
 
