@@ -1,11 +1,15 @@
-﻿using ms_pessoa_domain.Dtos.Login;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using ms_pessoa_domain.Dtos.Login;
 using ms_pessoa_domain.Dtos.Pessoa;
 using ms_pessoa_domain.Interfaces.Services;
 using ms_pessoa_infra.Helpers;
 using ms_pessoa_infra.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,10 +17,13 @@ namespace ms_pessoa_domain.Services
 {
     public class LoginService : ILoginService
     {
+        private readonly IConfiguration _configuration;
         private readonly IPessoaRepository _pessoaRepository;
 
-        public LoginService(IPessoaRepository pessoaRepository)
+        public LoginService(IConfiguration configuration, 
+            IPessoaRepository pessoaRepository)
         {
+            _configuration = configuration;
             _pessoaRepository = pessoaRepository;
         }
 
@@ -51,7 +58,8 @@ namespace ms_pessoa_domain.Services
                 Result = new LoginResDto
                 { 
                     CPF = pessoa.CPF,
-                    Token = "TOKEN"
+                    Nome = pessoa.Nome,
+                    Token = GerarToken()
                 }
             };
         }
@@ -81,6 +89,24 @@ namespace ms_pessoa_domain.Services
             {
                 Succeeded = true
             };
+        }
+
+        private string GerarToken()
+        {
+            var _secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            var _issuer = _configuration["Jwt:Issuer"];
+            var _audience = _configuration["Jwt:Audience"];
+
+            var signinCredentials = new SigningCredentials(_secretKey, SecurityAlgorithms.HmacSha256);
+
+            var tokeOptions = new JwtSecurityToken(
+                issuer: _issuer,
+                audience: _audience,
+                claims: new List<Claim>(),
+                expires: DateTime.Now.AddHours(4),
+                signingCredentials: signinCredentials);
+
+            return new JwtSecurityTokenHandler().WriteToken(tokeOptions);
         }
         #endregion
     }

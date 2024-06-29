@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ms-pessoa-unit-teste/1.0.0": {
+        "runtime": {
+          "ms-pessoa-unit-teste.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ms-pessoa-unit-teste/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

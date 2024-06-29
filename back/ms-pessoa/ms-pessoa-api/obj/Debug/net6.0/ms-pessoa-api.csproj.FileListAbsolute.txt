@@ -70,3 +70,5 @@ C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-api\obj\Debug\net6
 C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-api\obj\Debug\net6.0\ms-pessoa-api.pdb
 C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-api\obj\Debug\net6.0\ms-pessoa-api.genruntimeconfig.cache
 C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-api\obj\Debug\net6.0\ref\ms-pessoa-api.dll
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

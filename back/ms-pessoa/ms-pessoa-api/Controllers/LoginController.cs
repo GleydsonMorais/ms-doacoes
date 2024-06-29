@@ -16,7 +16,7 @@ namespace ms_pessoa_api.Controllers
             _loginService = loginService;
         }
 
-        // POST api/<PessoaController>
+        // POST api/<LoginController>
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] LoginReqDto dto)
         {

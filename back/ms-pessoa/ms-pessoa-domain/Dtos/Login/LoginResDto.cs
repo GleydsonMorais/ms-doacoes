@@ -9,6 +9,7 @@ namespace ms_pessoa_domain.Dtos.Login
     public class LoginResDto
     {
         public string CPF { get; set; }
+        public string Nome { get; set; }
         public string Token { get; set; }
     }
 }

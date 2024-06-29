@@ -1,0 +1,11 @@
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-unit-teste\bin\Debug\net6.0\ms-pessoa-unit-teste.deps.json
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-unit-teste\bin\Debug\net6.0\ms-pessoa-unit-teste.dll
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-unit-teste\bin\Debug\net6.0\ms-pessoa-unit-teste.pdb
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-unit-teste\obj\Debug\net6.0\ms-pessoa-unit-teste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-unit-teste\obj\Debug\net6.0\ms-pessoa-unit-teste.AssemblyInfoInputs.cache
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-unit-teste\obj\Debug\net6.0\ms-pessoa-unit-teste.AssemblyInfo.cs
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-unit-teste\obj\Debug\net6.0\ms-pessoa-unit-teste.csproj.CoreCompileInputs.cache
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-unit-teste\obj\Debug\net6.0\ms-pessoa-unit-teste.dll
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-unit-teste\obj\Debug\net6.0\refint\ms-pessoa-unit-teste.dll
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-unit-teste\obj\Debug\net6.0\ms-pessoa-unit-teste.pdb
+C:\Projects\MBA\Hackathon\ms-doacoes\back\ms-pessoa\ms-pessoa-unit-teste\obj\Debug\net6.0\ref\ms-pessoa-unit-teste.dll
