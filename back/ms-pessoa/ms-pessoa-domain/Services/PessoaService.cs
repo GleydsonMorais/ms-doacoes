@@ -69,7 +69,7 @@ namespace ms_pessoa_domain.Services
                 return new QueryResult<AlterarSenhaResDto>
                 {
                     Succeeded = false,
-                    Message = "Usuário não cadastrado!"
+                    Message = "Pessoa não cadastrado!"
                 };
             }
 
